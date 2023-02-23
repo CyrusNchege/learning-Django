@@ -2,5 +2,21 @@
 {%load static%}
 <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 {%block content%}
-<h1>header</h1>
+
+    <div class="row">
+        <div class="col-md-6 landing">
+            <div class="">
+            <h1>
+                Welcome to our community
+            </h1> <br>
+            <p>Join us and let us grow together</p>
+            </div>
+
+        </div>
+            
+        <div class="col-md-6">
+            <img class="img-fluid" src="{%static 'images/community.webp'%}" alt="" srcset="">
+        </div>
+
+    </div>
 {%endblock%}

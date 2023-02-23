@@ -1,6 +1,17 @@
-h1{
-    color: blue;
-}
 #header{
-    background-color: tomato;
+    padding: 30px;
+}
+#body{
+    padding: 30px; 
+    background-color: whitesmoke;
+    height: 500px;
+}
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+#footer{
+    text-align: center;
 }
